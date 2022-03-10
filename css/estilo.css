@@ -390,3 +390,21 @@ textarea {
 title {
   text-align: center;
 }
+
+.translate:hover {
+  transform: translate(20px, 30px);
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

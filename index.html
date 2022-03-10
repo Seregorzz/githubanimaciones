@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="short cut icon" href="./fotos/pentagrama(1).png">
     <link rel="stylesheet" href="css/estilo.css">
     <title>HORROR MOVIES</title>
@@ -34,14 +38,14 @@
         <main class="contenido">
             <section class="title">LO MEJOR DE LA SEMANA</section>
             <section class="img">
-                <img class="wolf" src="./fotos/american_werewolf_in_london_xxlg[1].jpg" alt=""> </section>
-                <section class="play">
+                <img class="wolf translate " src="./fotos/american_werewolf_in_london_xxlg[1].jpg" alt=""> </section>
+                <section class="play wow animate__animated animate__rubberBand">
                 <img  src="./fotos/childs_play_two_xxlg_-_Copia[1].jpg" alt="">
             </section>
-            <section class="conten">
+            <section class="conten wow animate__animated animate__heartBeat">
                 <img  src="./fotos/changeling_ver1_xxlg_-_Copia[1].jpg" alt="">
             </section>
-            <section class="frigth">
+            <section class="frigth wow animate__animated animate__fadeInDown">
                 <img  src="./fotos/fright_night_xxlg_-_Copia[1].jpg" alt="">
             </section>
             <p class="tex">
@@ -58,10 +62,10 @@
         </section>
         
         </main>
-        <aside class="sidebar">
+        <aside class="sidebar translate">
             <h2>PROXIMAMENTE VHS</h2>
         </aside>
-        <div class="widget-1">
+        <div class="widget-1 translate">
             <h2>PLANES</h2>
             <section>
                 <div>
@@ -84,7 +88,7 @@
             
             
         </div>
-        <div class="widget-2">
+        <div class="widget-2 translate">
             <h2>PLANES</h2>
             <section>
                 <div>
@@ -111,5 +115,9 @@
             <img src="./fotos/instagram(1).png" alt="">
         </footer>
     </div>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     </body>
 </html>
