@@ -398,7 +398,6 @@ title {
 h1 {
   animation-duration: 2s;
   animation-name: aparecer;
-  animation-iteration-count: infinite;
 }
 @keyframes aparecer {
   0% {
